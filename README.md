@@ -29,13 +29,19 @@ This tool collapses that into one step: type `/report`, fill in a short form, cl
    > Hello there! Your ticket has been successfully created — **SCRUM-42**
    with a link straight to the ticket. A Jira/network failure surfaces as a private error message instead of failing silently.
 
-## Screenshots
+## Demo
 
-| The bug report modal | Confirmation message | Resulting Jira ticket |
-|---|---|---|
-| ![Bug report modal](screenshots/modal.png) | ![Confirmation message](screenshots/confirmation.png) | ![Jira ticket](screenshots/jira-ticket.png) |
+**1. `/report` in #diamond opens the modal** — pick platforms, fill in the title, description, and steps to reproduce.
 
-*(Drop your screenshots into `screenshots/` with these filenames and they'll render above.)*
+![Bug report modal](screenshots/modal.png)
+
+**2. Click Create → a private confirmation appears with the ticket link**
+
+![Confirmation message](screenshots/confirmation.png)
+
+**3. The Jira issue is created with everything mapped into the description**
+
+![Jira ticket](screenshots/jira-ticket.png)
 
 ## Architecture
 
